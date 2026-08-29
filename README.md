@@ -16,6 +16,21 @@ SystemAudioRecorder is a pre-release system-audio spectrum analyzer and recorder
 | Linux x64 | English (en-US) | GUI | Binary release only; source not public |
 | Linux x64 | Traditional Chinese (zh-TW) | GUI | Binary release only; source not public |
 
+## Downloads
+
+Prebuilt binaries are available from the GitHub Releases page.
+
+Available packages:
+
+- Windows x64 GUI — English (en-US)
+- Windows x64 GUI — Traditional Chinese (zh-TW)
+- Linux x64 CLI — English (en-US)
+- Linux x64 CLI — Traditional Chinese (zh-TW)
+- Linux x64 GUI — English (en-US)
+- Linux x64 GUI — Traditional Chinese (zh-TW)
+
+Current pre-release: `v2.0-beta.1`
+
 ## Source code availability
 
 Source code for the Windows editions and Linux CLI reference port is available in this repository.
@@ -187,6 +202,21 @@ SystemAudioRecorder 是預發佈的系統音訊頻譜分析與錄音工具，目
 - Windows x64 GUI：英文（en-US）與繁體中文（zh-TW），原始碼已公開於本 Repository。
 - Linux CLI：英文（en-US）與繁體中文（zh-TW），CLI 參考移植版原始碼已公開於本 Repository。
 - Linux GUI：英文（en-US）與繁體中文（zh-TW），僅提供執行檔，不公開 GUI 原始碼。
+
+### 下載
+
+預編譯執行版本可由 GitHub Releases 頁面下載。
+
+目前提供：
+
+- Windows x64 GUI — 英文（en-US）
+- Windows x64 GUI — 繁體中文（zh-TW）
+- Linux x64 CLI — 英文（en-US）
+- Linux x64 CLI — 繁體中文（zh-TW）
+- Linux x64 GUI — 英文（en-US）
+- Linux x64 GUI — 繁體中文（zh-TW）
+
+目前預發佈版本：`v2.0-beta.1`
 
 ### Linux GUI 原始碼
 
