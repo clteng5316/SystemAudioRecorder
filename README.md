@@ -38,6 +38,17 @@ Access to the Linux GUI source code is subject to the copyright holder's approva
 - Supports optional URL media download with external `yt-dlp` + FFmpeg.
 - Provides an in-memory FIFO download queue with progress, reorder, and cancel controls.
 - Supports recording-gain and download-directory selection.
+#### Windows SmartScreen notice
+
+The Windows executables in this beta release are currently not digitally signed.
+
+Microsoft Defender SmartScreen may therefore display an "unrecognized app" warning when the program is launched for the first time. This warning by itself does not indicate that the application is malware.
+
+For safety, download SystemAudioRecorder only from this official GitHub repository and its Releases page.
+
+Do not disable Windows security features globally in order to run the application.
+
+Code signing may be considered for future releases.
 
 ### Linux CLI reference port
 
@@ -194,6 +205,17 @@ Linux GUI 本次僅提供執行檔，不包含於公開 Repository 或 GitHub �
 - 透過外部 FFmpeg 將暫存 WAV 轉為 MP3。
 - 可選用 `yt-dlp` + FFmpeg 進行 URL 媒體下載。
 - 提供記憶體內 FIFO 下載佇列。
+#### Windows SmartScreen 說明
+
+目前 beta 版本的 Windows 執行檔尚未使用數位憑證簽章。
+
+因此第一次執行時，Microsoft Defender SmartScreen 可能顯示「無法辨識的應用程式」或類似警告。單獨出現此警告，並不代表程式已被判定為惡意軟體。
+
+為了安全，請只從本官方 GitHub Repository 及其 Releases 頁面下載 SystemAudioRecorder。
+
+不建議為了執行本程式而全面停用 Windows 的安全性功能。
+
+未來版本可視需要考慮加入程式碼數位簽章（Code Signing）。
 
 ### Linux CLI 參考移植版
 
