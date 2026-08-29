@@ -1,0 +1,36 @@
+TARGETNAME=SystemAudioRecorder
+TARGETTYPE=PROGRAM
+TARGETPATH=obj
+UMTYPE=windows
+UMENTRY=wwinmain
+USE_MSVCRT=1
+
+MSC_OPTIMIZATION=/Od
+MSC_WARNING_LEVEL=/W4
+
+INCLUDES=.;$(DDK_INC_PATH);
+
+C_DEFINES=$(C_DEFINES) \
+    -DUNICODE \
+    -D_UNICODE \
+    -D_CRT_SECURE_NO_WARNINGS \
+    -D_WIN32_WINNT=0x0601 \
+    -DWINVER=0x0601
+
+TARGETLIBS= \
+    $(SDK_LIB_PATH)\user32.lib \
+    $(SDK_LIB_PATH)\gdi32.lib \
+    $(SDK_LIB_PATH)\comdlg32.lib \
+    $(SDK_LIB_PATH)\shell32.lib \
+    $(SDK_LIB_PATH)\comctl32.lib \
+    $(SDK_LIB_PATH)\ole32.lib \
+    $(SDK_LIB_PATH)\uuid.lib
+
+SOURCES= \
+    main.cpp \
+    audio.cpp \
+    spectrum.cpp \
+    ffmpeg.cpp \
+    downloader.cpp \
+    queue.cpp \
+    version.rc

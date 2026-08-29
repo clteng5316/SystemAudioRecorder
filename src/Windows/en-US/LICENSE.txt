@@ -1,0 +1,22 @@
+SystemAudioRecorder — Source-Available Notice
+Copyright (c) 2026 Teng Chuan-Liang. All rights reserved.
+
+This repository is made publicly available for viewing and reference purposes only.
+
+Unless you have received prior written permission from the copyright holder, you may not:
+
+1. copy or redistribute the source code or binaries, in whole or in substantial part;
+2. modify, adapt, translate, or create derivative works from the source code;
+3. publish, sublicense, sell, rent, lease, or otherwise distribute the source code or binaries;
+4. use the source code or binaries as part of a commercial product or service;
+5. remove or alter copyright, attribution, or other proprietary notices.
+
+No patent, trademark, copyright, or other intellectual-property license is granted by making this repository publicly accessible.
+
+You may view the source code and study it for personal reference. Any use beyond viewing and personal reference requires prior written permission from the copyright holder.
+
+Third-party software, libraries, tools, and components referenced by or used with this project remain subject to their respective licenses and terms.
+
+THE SOFTWARE AND SOURCE CODE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR SOURCE CODE.
+
+This notice is not an open-source license.

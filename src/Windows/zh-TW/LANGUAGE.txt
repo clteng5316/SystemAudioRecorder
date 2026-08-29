@@ -1,0 +1,2 @@
+Primary interface language: Traditional Chinese (zh-TW)
+Documentation: Traditional Chinese + English
